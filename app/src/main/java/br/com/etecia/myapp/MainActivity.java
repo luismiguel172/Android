@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -43,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
 
                     case R.id.Favoritos:
                         Toast.makeText(getApplicationContext(), "Cliquei no favorito", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(getApplicationContext(),
+                                BottomNavActivity.class));
                         break;
                     case R.id.Compartilhar:
                         Toast.makeText(getApplicationContext(), "Cliquei no Compartilhar", Toast.LENGTH_SHORT).show();
