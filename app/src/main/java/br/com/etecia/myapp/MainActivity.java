@@ -43,12 +43,12 @@ public class MainActivity extends AppCompatActivity {
                 switch(item.getItemId()) {
 
                     case R.id.Favoritos:
-                        Toast.makeText(getApplicationContext(), "Cliquei no favorito", Toast.LENGTH_SHORT).show();
                         startActivity(new Intent(getApplicationContext(),
                                 BottomNavActivity.class));
                         break;
                     case R.id.Compartilhar:
-                        Toast.makeText(getApplicationContext(), "Cliquei no Compartilhar", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(getApplicationContext(),
+                                BottomNavegationActivity.class));
                         break;
                     case R.id.Pesquisar:
                         Toast.makeText(getApplicationContext(), "Cliquei no Pesquisar", Toast.LENGTH_SHORT).show();

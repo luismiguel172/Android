@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/NavFavorite"
+          android:title="Favorite"
+          android:icon="@drawable/baseline_favorite"/>
+    <item android:id="@+id/NavNewsPaper"
+          android:title="News"
+          android:icon="@drawable/baseline_newspaper"/>
+    <item android:id="@+id/NavPlaces"
+          android:title="Places"
+          android:icon="@drawable/baseline_place"/>
+    <item android:id="@+id/NavMusic"
+          android:title="Music"
+          android:icon="@drawable/baseline_music_note"/>
+
+</menu>
